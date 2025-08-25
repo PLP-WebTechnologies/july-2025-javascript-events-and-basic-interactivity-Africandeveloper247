@@ -1,0 +1,111 @@
+/* Part 1: JavaScript Event Handling and Interactive Elements*/
+body{
+    font-family:"Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+#btn{
+    font-family:"Poppins", sans-serif;
+    font-size:1.5rem;
+    background-color: hsl(180, 58%, 27%);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.918);
+    transition:0.5s background-color;
+
+}
+
+#btn:hover{
+    background-color: rgba(62, 150, 150, 0.753);
+    color: black;
+
+}
+p{
+    font-family:"Poppins", sans-serif;
+    font-size:1.5rem;
+}
+
+#weblink{
+    text-decoration: none;
+    font-size: 1rem;
+    color: red;
+
+}   /*weblink */
+
+#togglebtn{
+    font-size: 16px;
+    padding:12px 24px;
+    border-radius: 10px;
+    background-color: hsl(180, 64%, 22%);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+#togglebtn:hover{
+    background: rgb(101, 155, 155);
+    color: black;
+
+}
+
+/*hidding and showing image*/
+#openbtn{
+    padding: 12px 24px;
+    border-radius: 10px;
+    background-color:hsl(0, 91%, 43%);
+    color: white;
+    font-family:"poppins", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+
+}
+#myimg{
+    display: none;    
+}
+
+#container{
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   display: flex; 
+   background: hsl(0, 36%, 95%);
+   margin-left: 400px;
+   padding: 20px;
+ 
+  
+}
+#box{
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+}
+.box input{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(200, 214, 226);
+    border: none;
+}
+#btn2{
+    font-size: 16px;
+    padding: 16px 32px;
+    background: hsl(0, 91%, 43%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px 10px black;
+    border-radius: 5px;
+}
+/* make the button hover*/
+#btn2:hover{
+    background: hsl(0, 65%, 47%);
+}
+#openbtn:hover{
+    background: hsl(0, 65%, 47%);
+}
